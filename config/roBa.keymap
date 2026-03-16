@@ -84,7 +84,7 @@
 &kp Q             &kp W         &mt LCTRL E  &kp R        &kp T                                           &kp Y        &kp U  &lt 5 I    &kp O    &kp P
 &mt LCTRL A       &kp S         &kp D        &kp F        &kp G      &kp UP_ARROW        &kp LEFT_ARROW   &kp H        &kp J  &kp K      &lt 4 L  &lt 5 ENTER
 &mt LEFT_SHIFT Z  &kp X         &kp C        &kp V        &kp B      &kp DOWN_ARROW      &kp RIGHT_ARROW  &kp N        &kp M  &kp COMMA  &kp DOT  &mt RSHIFT SLASH
-&kp TAB           &kp LEFT_ALT  &kp LCMD     &lt 1 LANG2  &kp SPACE  &kp ESCAPE          &kp SPACE        &lt 2 LANG1                             &kp RIGHT_ARROW
+&kp TAB           &kp LEFT_ALT  &kp LCMD     &lt 1 LANG2  &kp SPACE  &lt 6 ESCAPE        &kp SPACE        &lt 2 LANG1                             &kp RIGHT_ARROW
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -139,10 +139,10 @@
 
         layer_6 {
             bindings = <
-&trans  &trans        &trans        &trans        &trans                           &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-&trans  &trans        &trans        &trans        &trans  &trans      &trans       &trans        &trans        &trans        &trans        &trans
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans      &bootloader  &trans        &trans        &trans        &trans        &bt BT_CLR
-&trans  &trans        &trans        &trans        &trans  &trans      &trans       &trans                                                  &bt BT_CLR_ALL
+&trans        &trans           &trans        &trans        &trans                           &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
+&kp C_VOL_DN  &kp C_VOLUME_UP  &kp K_MUTE    &trans        &trans  &trans      &trans       &trans        &trans        &trans        &trans        &trans
+&trans        &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &trans  &trans      &bootloader  &trans        &trans        &trans        &trans        &bt BT_CLR
+&trans        &trans           &trans        &trans        &trans  &trans      &trans       &trans                                                  &bt BT_CLR_ALL
             >;
         };
     };
