@@ -104,10 +104,10 @@
 
         NUM {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                        &kp NUMBER_6   &kp NUMBER_7    &kp NUMBER_8    &kp NUMBER_9     &kp NUMBER_0
-&kp PLUS      &kp MINUS     &kp ASTRK     &kp SLASH     &kp BACKSLASH  &trans      &kp F21  &kp COLON      &mkp LCLK       &kp UP_ARROW    &mkp RCLK        &kp MINUS
-&kp EQUAL     &kp COLON     &trans        &trans        &trans         &trans      &trans   &kp SEMICOLON  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp UNDERSCORE
-&trans        &trans        &trans        &trans        &trans         &trans      &trans   &trans                                                          &kp LG(LS(NUMBER_4))
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                          &kp NUMBER_6   &kp NUMBER_7    &kp NUMBER_8    &kp NUMBER_9     &kp NUMBER_0
+&kp PLUS      &kp MINUS     &kp ASTRK     &kp SLASH     &kp BACKSLASH  &trans      &kp LG(W)  &kp COLON      &mkp LCLK       &kp UP_ARROW    &mkp RCLK        &kp MINUS
+&kp EQUAL     &kp COLON     &trans        &trans        &trans         &trans      &kp F21    &kp SEMICOLON  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp UNDERSCORE
+&trans        &trans        &trans        &trans        &trans         &trans      &trans     &trans                                                          &kp LG(LS(NUMBER_4))
             >;
         };
 
